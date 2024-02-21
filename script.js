@@ -6,7 +6,7 @@ if (umur <= 13) {
     alert(`Maaf, umur 13 tahun kebawah \n belum bisa masuk studio.`)
 }
 else {
-    const studio = prompt('Pilih studio A/B/C \n \nISI DENGAN HURUF KAPITAL!')
+    const studio = prompt('Pilih studio A/B/C \nISI DENGAN HURUF KAPITAL!')
     if(studio == `A`){
     alert(`Tiket ${nama}, Studio A, Umur ${umur} Tahun`)
     }
